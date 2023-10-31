@@ -1,0 +1,125 @@
+/*********
+GENERAL STYLES
+*********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+span {
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+/********
+HEADER RULES
+*********/
+
+header {
+    width: 100%;
+    background-color: #008cdd;
+    min-height: 30px;
+}
+
+header ul {
+    list-style: none;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-nav .col{
+    padding: 5px;
+}
+
+/********
+BUTTONS
+********/
+
+.button {
+    padding: 6px;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header .button {
+    background-color: white;
+    color: #008cdd;
+
+}
+
+#what-we-do .button{
+    background-color:#008cdd;;
+    color: white 
+}
+
+
+/*********
+GENERAL BLOCKS
+**********/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    /*debug*/
+    border: black solid 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*********
+SECTION 1
+*********/
+
+.container-bq {
+    margin: 20px 0;
+}
+
+.what-we-do-bq {
+    background-color: lightblue;
+    width: calc(100% /3);
+    border-radius: 20px;
+}
+
+
+.what-we-do-bq img{
+    width: 100%;
+}
+
+#sc1-bq1 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
