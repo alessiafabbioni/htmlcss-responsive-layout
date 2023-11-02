@@ -166,6 +166,16 @@ SECTION 1
     height: auto;
 }
 
+@media only screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .bq, .what-we-do-bq {
+        margin: 10px;
+    }
+}
+
 /*********
 SECTION 2
 *********/
@@ -210,6 +220,14 @@ SECTION 2
     border-radius: 100%;
 }
 
+@media only screen and (max-width: 480px) {
+    .row-bq {
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
 /***********
 SECTION 3
 ***********/
@@ -232,7 +250,7 @@ SECTION 3
     background-color: #9593E6;
     display: flex;
     flex-direction: row;
-    height: 150px;
+    min-height: 150px;
     text-align: start;
     color: white;
 }
@@ -251,6 +269,15 @@ SECTION 3
 
 .quote {
     padding: 0 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .bq.partner-bq {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
 }
 
 /**********
@@ -289,7 +316,10 @@ SECTION 5
     padding: 10px;
 }
 
-
+#about-us h3{
+    color: #9593E6;
+    padding: 10px 10px 10px 0;
+}
 
 /*********
 SECTION 6
